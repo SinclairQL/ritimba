@@ -1,0 +1,78 @@
+= Ritimba
+:author: Marcos Cruz (programandala.net)
+:revdate: 2017-10-18
+
+== 2017-09-21
+
+- Improve the messages and layout of the final escape to Leftoto.
+- Improve the messages about the helicopter.
+
+== 2017-09-22
+
+- Rename `pc%`.
+- Move the data from `issue_data$()` into numeric arrays.
+- Move `csize_width_pixels` and `csize_height_pixels` to the library.
+- Improve `center_for%` and `center`: calculate the actual size of the
+  text using the current `csize`.
+
+== 2017-10-08
+
+- Improve `center`: use a backslash to mark the prefered split points
+  in the text.
+- Improve design of the treasury report.
+- Display something during the calculation of the possible allies.
+
+== 2017-10-09
+
+- Improve wording of "sus tierras". Better yet: Add an additional
+  wording to be used in the advice report.
+
+== 2017-10-11
+
+- Simplify the windows layout: Use a background window to simulate the
+  ZX Spectrum border. Then the output window can use its own internal
+  border as a margin.
+- Extend the description of events.
+- Improve the police report: Mark groups with low popularity and
+  enough power.
+- Improve the title of the splash screen.
+- Improve the welcome screen: Simulate a document that must be
+  subscribed. Add the player name to a score table.
+
+== 2017-10-12
+
+- Improve the texts and layout of the denied police report.
+- Improve the choosing of the loyal group. Improve the numbering of
+  the list and the prompt. Count the loyal groups in advance.
+- Rewrite `celebration`.
+- Fix "fuerza/poder".
+- Improve the Y/N of a presidential decision after the petitions:
+  combine with advice report and adapt the valid options if the
+  decision is not affordable.
+
+== 2017-10-13
+
+- Rewrite the final text of the score report.
+- Fix: Clear the input window before the escape to Leftoto.
+- Possible improvement of `get_key_prompt$`: Get the valid keys from
+  the prompt (uppercase letters and digits).
+- Fix: sometimes the combined power of the rebels is zero.
+- Add option: Escape.
+
+== 2017-10-14
+
+- Improve design of `ask_for_loan`.
+
+== 2017-10-15
+
+- Improve: use actual amounts of money, not units of thousands. This
+  will make the transfer options more accurate.
+- Make `endfor` unnamed, except special case.
+- Add section title to the lists of presidential decisions.
+
+== 2017-10-18
+
+- Improve layout, text and pauses of `actual_war`.
+- Fix: `soundfile` corrupts the system when the national anthems are
+  played, which are more than 1 minute long. This looks a bug of
+  SMSQmulator.

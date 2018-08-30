@@ -1,6 +1,6 @@
 = Ritimba
 :author: Marcos Cruz (programandala.net)
-:revdate: 2017-09-09
+:revdate: 2017-09-27
 
 In <<en,English>> below.
 
@@ -37,7 +37,7 @@ proyecto fue puesto en estado _durmiente_.
 
 En 2017-09-09 se creó un repositorio de Git a partir de las copias de
 respaldo, con el fin de preservar la evolución del código y retomar su
-desarrollo en el futuro.
+desarrollo.
 
 == [[en]]English
 
@@ -74,4 +74,4 @@ project was set to standby mode.
 
 On 2017-09-09 a Git repository was created from the development
 backups in order to preserve the evolution of the project and resume
-its development in the future.
+its development.

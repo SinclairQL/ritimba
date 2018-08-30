@@ -1,0 +1,17 @@
+# Ignore the SMSQmulator config file:
+SMSQemulator.ini
+
+# Ignore the generated sources:
+boot
+*_bas
+
+# Ignore the S*BASIC extensions:
+ext/
+
+# Ignore the fonts:
+*_font
+
+# Ignore the images:
+img/
+
+# vim: filetype=config
